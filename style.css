@@ -1,0 +1,101 @@
+body{
+    background-color:rgb(65,65,65);
+    
+}
+.first{
+    display:flex;
+    list-style:none;
+    flex-direction:row;
+
+    color:white;
+    background-color:rgb(255, 94, 0);
+    width:100%;
+    align-items:center;
+   
+    font-size:25px;
+    height: 50px;
+    margin-top:45px;
+}
+li{
+    display: inline-block;
+    background-color:rgb(255, 94, 0);
+}
+a{
+    display: block;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    padding: 10px;
+}
+a:hover{
+    background-color:black;
+}
+
+h1{
+    font-size:65px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+p{
+    font-size:40px;
+    
+}
+.main{
+    color:white;
+    text-align:center;
+    margin-top:95px;
+    
+}
+.second{
+     display:none;
+    position:absolute;
+    left:90px;
+    top:70px;
+    text-align:left;
+    z-index:-1;
+    width:160px;
+    color:white;
+    list-style:none;
+    
+    
+}
+.perviy{
+    background-color:rgb(255, 94, 0);
+    width:160px;
+}
+.third{
+    display:none;
+}
+.fours{
+    display:none;
+
+}
+.fifs{
+    display:none;
+}
+.odin:hover{
+    background-color:black;
+}
+
+.odin:hover >.second{
+    display: block;
+    position: relative;
+     
+     
+}
+
+ul ul li {
+    display: block;
+    position: relative; 
+}
+ul ul {
+    position: absolute;
+    display: none;
+}
+ul li:hover > ul {
+    display: block;
+}
+ul ul ul li {
+    display: block;
+    position: relative;
+    
+}
